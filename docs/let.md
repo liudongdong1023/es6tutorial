@@ -81,10 +81,12 @@ for (let i = 0; i < 3; i++) {
 
 ```javascript
 // var 的情况
+var foo;
 console.log(foo); // 输出undefined
 var foo = 2;
 
 // let 的情况
+let bar;
 console.log(bar); // 报错ReferenceError
 let bar = 2;
 ```
